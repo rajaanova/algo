@@ -1,8 +1,17 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"log"
+)
 
+func init() {
+	log.SetPrefix("LOG: ")
+	log.SetFlags(log.Ldate | log.Lmicroseconds | log.Llongfile)
+	log.Println("init started")
+}
 func main() {
+	log.Println("hello raj")
 	isPalindromInt(101)
 }
 func isPalindromInt(i int) {

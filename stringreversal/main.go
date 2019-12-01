@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	reverseString("helloraj")
+	reverseString("The quick brown 狐 jumped over the lazy 犬")
 	reverseWithRuneCount("The quick brown 狐 jumped over the lazy 犬")
 	reverseWords("The quick brown 狐 jumped over the lazy 犬")
 }

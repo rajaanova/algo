@@ -10,5 +10,5 @@ func main() {
 	http.ListenAndServe(":8080", nil)
 }
 func raj(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "hello raj")
+	fmt.Fprintf(w, "hello raj"+r.URL.Path)
 }

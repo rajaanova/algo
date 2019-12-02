@@ -8,8 +8,10 @@ import (
 
 func main() {
 	reverseString("The quick brown 狐 jumped over the lazy 犬")
+	reverseWithRuneCount("noël")
 	reverseWithRuneCount("The quick brown 狐 jumped over the lazy 犬")
 	reverseWords("The quick brown 狐 jumped over the lazy 犬")
+	reverseString("noël")
 }
 
 func reverseWords(st string) {

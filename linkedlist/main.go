@@ -21,5 +21,4 @@ func (n NodeLinkedList) Add(a int) {
 func main() {
 	list := NewLinkedList()
 	list.Add(10)
-	list.len()
 }
